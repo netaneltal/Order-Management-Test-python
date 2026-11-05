@@ -38,3 +38,7 @@ def Discount_Calculation(price):
         return price * 0.9
     else:
         return price * 0.85
+
+def to_int(num):
+    num = int(num)
+    return num      
